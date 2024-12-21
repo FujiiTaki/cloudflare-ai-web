@@ -69,8 +69,14 @@ export type Settings = typeof initialSettings
 
 export const uniModals: Model[] = [
     {
-        id: 'gemini-2-flash',
+        id: 'gemini-2-flash-exp',
         name: 'Gemini 2 flash',
+        provider: 'google',
+        type: 'universal'
+    },
+    {
+        id: 'gemini-1.5-flash-8b',
+        name: 'Gemini 1.5 flash 8B',
         provider: 'google',
         type: 'universal'
     },
