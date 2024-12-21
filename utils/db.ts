@@ -69,6 +69,12 @@ export type Settings = typeof initialSettings
 
 export const uniModals: Model[] = [
     {
+        id: 'gemini-2-flash',
+        name: 'Gemini 2 flash',
+        provider: 'google',
+        type: 'universal'
+    },
+    {
         id: 'gemini-1.5-flash',
         name: 'Gemini 1.5 flash',
         provider: 'google',
@@ -76,15 +82,15 @@ export const uniModals: Model[] = [
     },
     {
         id: 'gemini-1.5-pro',
-        name: 'Gemini 1.5 Pro',
+        name: 'Gemini 2 Pro',
         provider: 'google',
         type: 'universal'
     }
 ]
 
 export const textGenModels: Model[] = [{
-    id: 'gpt-3.5-turbo',
-    name: 'ChatGPT-3.5-turbo',
+    id: 'gpt-4o-mini',
+    name: 'gpt-4o-mini',
     provider: 'openai',
     endpoint: 'chat/completions',
     type: 'chat'
