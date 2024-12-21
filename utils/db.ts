@@ -147,7 +147,7 @@ export const textGenModels: Model[] = [{
     type: 'chat'
 }, {
     id: '@cf/meta/llama-3.3-70b-instruct-fp8-fast',
-    name: 'llama-3.1-8b-instruct',
+    name: 'llama-3.3-70b-instruct-fp8-fast',
     provider: 'workers-ai',
     type: 'chat'
 }]
