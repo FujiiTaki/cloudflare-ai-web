@@ -105,7 +105,22 @@ export const textGenModels: Model[] = [{
     name: 'qwen1.5-14b-chat-awq',
     provider: 'workers-ai',
     type: 'chat'
-}, {
+},{
+    id: '@hf/thebloke/deepseek-coder-6.7b-instruct-awq',
+    name: 'deepseek-coder-6.7b-instruct-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+},{
+    id: '@hf/thebloke/deepseek-coder-6.7b-base-awq',
+    name: 'deepseek-coder-6.7b-base-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+},{
+    id: '@cf/deepseek-ai/deepseek-math-7b-instruct',
+    name: 'deepseek-math-7b-instruct',
+    provider: 'workers-ai',
+    type: 'chat'
+},{
     id: '@cf/openchat/openchat-3.5-0106',
     name: 'openchat-3.5-0106',
     provider: 'workers-ai',
@@ -131,7 +146,7 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'chat'
 }, {
-    id: '@cf/meta/llama-3.1-8b-instruct',
+    id: '@cf/meta/llama-3.3-70b-instruct-fp8-fast',
     name: 'llama-3.1-8b-instruct',
     provider: 'workers-ai',
     type: 'chat'
