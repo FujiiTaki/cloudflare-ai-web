@@ -82,7 +82,7 @@ export const uniModals: Model[] = [
     },
     {
         id: 'gemini-1.5-pro',
-        name: 'Gemini 2 Pro',
+        name: 'Gemini 1.5 Pro',
         provider: 'google',
         type: 'universal'
     }
